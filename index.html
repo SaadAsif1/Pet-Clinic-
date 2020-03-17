@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+    />
+    <script src="https://kit.fontawesome.com/9792f21be3.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Pet Clinic</title>
+  </head>
+  <body>
+    <div class="continer">
+      <h1>Pet Clinic</h1>
+      <div id="top-t">
+        <div class="non">
+          <h4>Submint Info Below <i class="fas fa-arrow-circle-down"></i></h4>
+        </div>
+        <div class="header"></div>
+      </div>
+      <div class="top">
+        <div>
+          <label for="Name">Full Name: </label>
+          <input
+            type="text"
+            class="border width"
+            placeholder="Full Name"
+            id="full-name"
+          />
+        </div>
+        <div>
+          <label for="pet">Pet Type: </label>
+          <input type="text" class="border width" placeholder="Pet Type" id="pet-type" />
+        </div>
+        <div>
+          <label for="id">#ID: </label>
+          <input type="text" class="border width" placeholder="Enter ID" id="id" />
+        </div>
+        <div>
+          <label for="date">Check Up Date: </label>
+          <input type="date" class="border width" id="date" />
+        </div>
+        <div>
+          <label for="doctor">Doctors:</label>
+          <select id="select">
+            <option value="Dr. Arthur Conan Doyle">Dr.Arthur Conan Doyle</option>
+            <option value="Dr. A. J. Cronin">Dr.A. J. Cronin</option>
+            <option value="Dr. Bob Smith">Dr.Bob Smith</option>
+            <option value="Dr. Leana Wen">Dr.Leana Wen</option>
+            <option value="Dr. Brett Robinson">Dr.Brett Robinson</option>
+            <option value="Dr. Kevin Pho">Dr.Kevin Pho</option>
+          </select>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="ids">
+          <label id="none" for="id">Search For ID#: </label>
+          <input type="text" id="filter" placeholder="Search ID Numbers" />
+        </div>
+        <div class="sub">
+          <input type="submit" id="submit" class="button-primary" />
+        </div>
+      </div>
+      <div class="bottom">
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>FullName</th>
+              <th>Pet Type</th>
+              <th>#ID</th>
+              <th>Check Up Date</th>
+              <th>Doctors</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="table-b"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

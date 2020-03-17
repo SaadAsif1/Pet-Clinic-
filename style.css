@@ -1,0 +1,123 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#top-t {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2rem;
+  margin: 0 2rem;
+  margin-bottom: 3rem;
+}
+
+#date:focus {
+  outline: black;
+}
+#date {
+  height: 3.5rem;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid lightgrey;
+}
+
+#select {
+  width: 100%;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.middle .ids {
+  width: 60%;
+  margin: auto;
+}
+
+#filter {
+  width: 100%;
+}
+.middle .sub {
+  width: 60%;
+}
+
+#submit {
+  width: 100%;
+}
+
+#submit {
+  margin-top: 2.4rem;
+}
+
+#none {
+  padding: 0;
+  margin: 0;
+}
+
+#alert {
+  width: 30rem;
+  padding: 1rem 0;
+  border-radius: 10px;
+  color: #f4f4f4;
+  font-size: 1.6rem;
+}
+
+.bad {
+  background: rgb(230, 76, 76);
+  padding: 0.7rem 0;
+  border-radius: 10px;
+}
+
+.good {
+  background: rgb(28, 156, 28);
+  padding: 0.7rem 0;
+  border-radius: 10px;
+}
+
+.fas {
+  transition: all ease-in-out 0.3s;
+}
+
+.fas:hover {
+  transform: scale(1.3);
+  color: red;
+  cursor: pointer;
+}
+
+.ca {
+  text-transform: capitalize;
+}
+
+.width {
+  width: 100%;
+}
+
+#name {
+  color: green;
+  font-weight: bolder;
+}
+
+#non {
+  border: 1px solid black;
+}
